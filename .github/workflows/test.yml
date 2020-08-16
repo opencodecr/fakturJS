@@ -10,4 +10,3 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Run Jest
-      uses: opencodecr/jest-action@1.0.3
