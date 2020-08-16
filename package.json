@@ -1,0 +1,22 @@
+{
+  "name": "faktur",
+  "version": "0.0.1-alpha",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/opencodecr/fakturJS.git"
+  },
+  "author": "Open Code CR",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/opencodecr/fakturJS/issues"
+  },
+  "homepage": "https://github.com/opencodecr/fakturJS#readme",
+  "devDependencies": {
+    "jest-cli": "^26.4.0"
+  }
+}
