@@ -1,4 +1,4 @@
-# FakturJS
+# Faktur (Javascript)
 Faktur for javascript is a package for accounting and billing purposes. Support for different uses will be added.
 
 [![GitHub license](https://img.shields.io/github/license/opencodecr/fakturJS)](https://github.com/opencodecr/fakturJS/blob/master/LICENSE)
