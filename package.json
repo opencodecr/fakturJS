@@ -1,10 +1,11 @@
 {
-  "name": "faktur",
+  "name": "@opencodecr/faktur",
   "version": "0.0.1-alpha",
   "description": "",
   "main": "src/index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "publish": "npm publish --access=public"
   },
   "repository": {
     "type": "git",
