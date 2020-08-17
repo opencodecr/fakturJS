@@ -3,13 +3,14 @@ const FakturErr = require('./helpers/Error');
 class Faktur {
 
     /**
-     *  Return [P]ercentage [V]alue [F]rom [T]otal
+     *  Return [R]aw [V]alue [F]rom [T]otal
      *  @param percentage value
      * @throws if any value is invalid
      */
-    static pvft(porcentage, value, round = 2) {
-        if (!porcentage || !value) throw new FakturErr("The porcentage and value are required");
+    static rvft(porc, value, round = 2) {
+        if (!porc || !value) throw new FakturErr("The porcentage and value are required");
 
+        let porcentage = porc / 100;
         let base = value - (value * porcentage);
         let subTotal = 0;
         let correctionFactor = 0.1;
