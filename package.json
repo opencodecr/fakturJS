@@ -12,7 +12,7 @@
     "url": "git+https://github.com/opencodecr/fakturJS.git"
   },
   "author": "Open Code CR",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/opencodecr/fakturJS/issues"
   },
