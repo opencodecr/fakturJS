@@ -13,19 +13,21 @@ Faktur for javascript is a package for accounting and billing purposes. Support 
 ## Use
 Faktur have implemented a static method called rvft ([R]aw [V]alue [F]rom [T]otal). This method return the raw value without the percentage applied and the percentage value calculated of percentage.
 
+```javascript
+const Faktur = require('Faktur');
 
-    const Faktur = require('Faktur');
+let percentage = 13;
+let value = 11718.83;
 
-    let percentage = 13;
-    let value = 11718.83;
+let rawValueFromTotal = Faktur.rvft(percentage, value);
 
-    let rawValueFromTotal = Faktur.rvft(percentage, value);
-
-    console.log(rawValueFromTotal);
+console.log(rawValueFromTotal);
+```
 
 The console.log() send the follow result
-
-    {
-        baseValue: 10370.68, 
-        percentageValue: 1348.19 
-    }
+```javascript
+{
+    baseValue: 10370.68, 
+    percentageValue: 1348.19 
+}
+```
