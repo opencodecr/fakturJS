@@ -5,7 +5,8 @@ class Faktur {
     /**
      *  Return [R]aw [V]alue [F]rom [T]otal
      *  @param percentage value
-     * @throws if any value is invalid
+     *  @param value 
+     *  @throws if any value is invalid
      */
     static rvft(porc, value, round = 2) {
         if (!porc || !value) throw new FakturErr("The porcentage and value are required");

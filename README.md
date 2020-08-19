@@ -8,7 +8,7 @@ Faktur for javascript is a package for accounting and billing purposes. Support 
 
 
 ## Installation
-    npm install faktur --save
+    npm install @opencodecr/faktur --save
 
 ## Use
 Faktur have implemented a static method called rvft ([R]aw [V]alue [F]rom [T]otal). This method return the raw value without the percentage applied and the percentage value calculated of percentage.
