@@ -1,6 +1,6 @@
 {
-  "name": "@opencodecr/faktur",
-  "version": "0.0.1-beta",
+  "name": "faktur",
+  "version": "0.0.2-beta",
   "description": "",
   "main": "src/index.js",
   "scripts": {
