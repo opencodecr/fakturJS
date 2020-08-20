@@ -5,6 +5,7 @@ Faktur for javascript is a package for accounting and billing purposes. Support 
 ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/opencodecr/fakturJS/Build%20on%20Push)
 [![GitHub issues](https://img.shields.io/github/issues/opencodecr/fakturJS)](https://github.com/opencodecr/fakturJS/issues)
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/opencodecr/fakturJS)
+![Travis](https://img.shields.io/travis/opencodecr/fakturJS/master)
 
 
 ## Installation
