@@ -8,7 +8,7 @@ Faktur for javascript is a package for accounting and billing purposes. Support 
 
 
 ## Installation
-    npm install @opencodecr/faktur --save
+    npm install faktur --save
 
 ## Use
 Faktur have a series of methods that facilitate some basic operations when is necessary make some accounting calculations. For this moment the API is very basic, but we are working to make more robust and stable. 
