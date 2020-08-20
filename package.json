@@ -11,6 +11,11 @@
     "type": "git",
     "url": "git+https://github.com/opencodecr/fakturJS.git"
   },
+  "keywords": [
+    "accounting",
+    "financial",
+    "ebill"
+  ],
   "author": "Open Code CR",
   "license": "MIT",
   "bugs": {
